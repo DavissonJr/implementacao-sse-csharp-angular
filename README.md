@@ -94,7 +94,7 @@ public class ProgressService
 }
 ```
 ## 4. Serviço responsável pelo processo demorado
-```
+```csharp
 public class ImportacaoService
 {
     private readonly ProgressService _progress;
