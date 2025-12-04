@@ -226,3 +226,19 @@ export class ImportarComponent {
 ## 4. Estilos da barra de progresso
 
 `src/app/importar/importar.component.css`
+
+```css
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #007bff;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+```
